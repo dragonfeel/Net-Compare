@@ -4,6 +4,25 @@ import os
 
 st.set_page_config(layout="wide", page_title="Net Spec Vision")
 
+# Custom CSS to hide Streamlit header/footer and remove padding
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        header {visibility: hidden;}
+        footer {visibility: hidden;}
+        .block-container {
+            padding-top: 0rem !important;
+            padding-bottom: 0rem !important;
+            padding-left: 0rem !important;
+            padding-right: 0rem !important;
+            max-width: 100%;
+        }
+        iframe {
+            display: block; /* Removed extra space below iframe */
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 def load_react_app():
     # Path to the built React app (single html file)
     build_path = os.path.join(os.path.dirname(__file__), "dist", "index.html")
@@ -20,11 +39,4 @@ def load_react_app():
     components.html(html_content, height=1200, scrolling=True)
 
 if __name__ == "__main__":
-    st.title("Premium Network Specification Comparison")
-    st.write("Powered by React & Vite (Embedded)")
-    
-    # Add a refresh button just in case
-    if st.button("Reload App"):
-        st.rerun()
-        
     load_react_app()
