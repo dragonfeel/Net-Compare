@@ -1,0 +1,692 @@
+[
+    {
+        "id": "mist-ap47",
+        "vendor": "Juniper Mist",
+        "model": "AP47",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "4x4:4 (6/5/2.4GHz)",
+            "throughput": "22 Gbps",
+            "ports": "2 x 10GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "vBLE Array"
+        },
+        "badge": "Next-Gen"
+    },
+    {
+        "id": "mist-ap45",
+        "vendor": "Juniper Mist",
+        "model": "AP45",
+        "image": "/app/static/images/mist-ap45.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5GHz) + 4x4:4 (2.4GHz) + IoT",
+            "throughput": "4.8 Gbps (5GHz)",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "vBLE Array (16-element)"
+        },
+        "badge": "Flagship"
+    },
+    {
+        "id": "mist-ap34",
+        "vendor": "Juniper Mist",
+        "model": "AP34",
+        "image": "/app/static/images/mist-ap34.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (6/5/2.4GHz)",
+            "throughput": "3.9 Gbps",
+            "ports": "1 x 1GbE",
+            "power": "PoE (802.3af)",
+            "ble": "Omni-directional BLE"
+        },
+        "badge": "6E Capable"
+    },
+    {
+        "id": "mist-ap24",
+        "vendor": "Juniper Mist",
+        "model": "AP24",
+        "image": "/app/static/images/mist-ap24.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (6/5/2.4GHz)",
+            "throughput": "4.1 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Omni-directional BLE"
+        },
+        "badge": "Compact 6E"
+    },
+    {
+        "id": "mist-ap43",
+        "vendor": "Juniper Mist",
+        "model": "AP43",
+        "image": "/app/static/images/mist-ap43.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5/2.4GHz) + IoT",
+            "throughput": "3.5 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "vBLE Array (16-element)"
+        },
+        "badge": "High Performance"
+    },
+    {
+        "id": "mist-ap33",
+        "vendor": "Juniper Mist",
+        "model": "AP33",
+        "image": "/app/static/images/mist-ap33.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5GHz) + 2x2:2 (2.4GHz)",
+            "throughput": "3.0 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "vBLE Array (16-element)"
+        },
+        "badge": "Mid-Range"
+    },
+    {
+        "id": "mist-ap12",
+        "vendor": "Juniper Mist",
+        "model": "AP12",
+        "image": "/app/static/images/mist-ap12.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2:2 (5/2.4GHz)",
+            "throughput": "1.8 Gbps",
+            "ports": "1 x 1GbE (3x Pass-thru)",
+            "power": "PoE+ (802.3at)",
+            "ble": "Omni-directional BLE"
+        },
+        "badge": "Wall Plate"
+    },
+    {
+        "id": "mist-ap64",
+        "vendor": "Juniper Mist",
+        "model": "AP64",
+        "image": "/app/static/images/mist-ap64.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (6/5/2.4GHz)",
+            "throughput": "3.6 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Omni-directional BLE"
+        },
+        "badge": "Outdoor 6E"
+    },
+    {
+        "id": "mist-ap63",
+        "vendor": "Juniper Mist",
+        "model": "AP63",
+        "image": "/app/static/images/mist-ap63.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5/2.4GHz)",
+            "throughput": "3.5 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "vBLE Array"
+        },
+        "badge": "Outdoor"
+    },
+    {
+        "id": "mist-ap32",
+        "vendor": "Juniper Mist",
+        "model": "AP32",
+        "image": "/app/static/images/mist-ap32.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5GHz) + 2x2:2 (2.4GHz)",
+            "throughput": "3.0 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Omni-directional BLE"
+        },
+        "badge": "Retail"
+    },
+    {
+        "id": "aruba-635",
+        "vendor": "Aruba",
+        "model": "AP-635",
+        "image": "/app/static/images/aruba-635.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 Tri-Radio",
+            "throughput": "3.9 Gbps Aggreg.",
+            "ports": "2 x 2.5GbE SmartRate",
+            "power": "PoE+ (802.3at)",
+            "ble": "Zigbee/BLE 5.0"
+        },
+        "badge": "Enterprise"
+    },
+    {
+        "id": "cisco-9130",
+        "vendor": "Cisco",
+        "model": "Catalyst 9130AX",
+        "image": "/app/static/images/cisco-9130.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "8x8:8 (5GHz)",
+            "throughput": "5.38 Gbps",
+            "ports": "1 x 5GbE Multigigabit",
+            "power": "PoE+ (802.3at)",
+            "ble": "BLE 5.0"
+        },
+        "badge": "High Density"
+    },
+    {
+        "id": "extreme-ap5020",
+        "vendor": "Extreme",
+        "model": "AP5020",
+        "image": "/app/static/images/extreme-ap5020.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "4x4:4 (6/5/2.4GHz)",
+            "throughput": "20 Gbps",
+            "ports": "1 x 10GbE + 1 x 5GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Dual IoT (BLE/Zigbee/Thread)"
+        },
+        "badge": "Flagship Wi-Fi 7"
+    },
+    {
+        "id": "extreme-ap5010",
+        "vendor": "Extreme",
+        "model": "AP5010",
+        "image": "/app/static/images/extreme-ap5010.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "4x4:4 (Tri-Radio)",
+            "throughput": "10 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated"
+        },
+        "badge": "High Perf 6E"
+    },
+    {
+        "id": "extreme-ap4000",
+        "vendor": "Extreme",
+        "model": "AP4000",
+        "image": "/app/static/images/extreme-ap4000.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 Tri-Radio",
+            "throughput": "3.9 Gbps",
+            "ports": "1 x 1GbE / 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "BLE/Zigbee"
+        },
+        "badge": "Universal 6E"
+    },
+    {
+        "id": "extreme-ap3000",
+        "vendor": "Extreme",
+        "model": "AP3000",
+        "image": "/app/static/images/extreme-ap3000.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (Tri-Radio)",
+            "throughput": "4.8 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE (802.3af)",
+            "ble": "Integrated"
+        },
+        "badge": "Small Form Factor"
+    },
+    {
+        "id": "extreme-ap5050",
+        "vendor": "Extreme",
+        "model": "AP5050",
+        "image": "/app/static/images/extreme-ap5050.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "4x4:4 (Tri-Radio)",
+            "throughput": "5.4 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor 6E"
+    },
+    {
+        "id": "extreme-ap302w",
+        "vendor": "Extreme",
+        "model": "AP302W",
+        "image": "/app/static/images/extreme-ap302w.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2:2 (Dual Band)",
+            "throughput": "1.6 Gbps",
+            "ports": "4 x 1GbE (Switch)",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated"
+        },
+        "badge": "Wall Plate"
+    },
+    {
+        "id": "arista-c460",
+        "vendor": "Arista",
+        "model": "C-460",
+        "image": "/app/static/images/arista-c460.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "4x4:4 (6/5/2.4GHz)",
+            "throughput": "18.7 Gbps",
+            "ports": "2 x 10GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated Zigbee/Thread"
+        },
+        "badge": "Flagship Wi-Fi 7"
+    },
+    {
+        "id": "arista-c430",
+        "vendor": "Arista",
+        "model": "C-430",
+        "image": "/app/static/images/arista-c430.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2:2 (6/5/2.4GHz)",
+            "throughput": "9.3 Gbps",
+            "ports": "2 x 5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated Zigbee/Thread"
+        },
+        "badge": "Mid-Range Wi-Fi 7"
+    },
+    {
+        "id": "arista-o435",
+        "vendor": "Arista",
+        "model": "O-435",
+        "image": "/app/static/images/arista-o435.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2:2 (6/5/2.4GHz)",
+            "throughput": "9.3 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated Zigbee/Thread"
+        },
+        "badge": "Outdoor Wi-Fi 7"
+    },
+    {
+        "id": "arista-c360",
+        "vendor": "Arista",
+        "model": "C-360",
+        "image": "/app/static/images/arista-c360.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "4x4:4 (Tri-Radio)",
+            "throughput": "10 Gbps Aggreg.",
+            "ports": "2 x 10GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated"
+        },
+        "badge": "High Perf 6E"
+    },
+    {
+        "id": "arista-c330",
+        "vendor": "Arista",
+        "model": "C-330",
+        "image": "/app/static/images/arista-c330.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (Tri-Radio)",
+            "throughput": "5.4 Gbps Aggreg.",
+            "ports": "2 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated"
+        },
+        "badge": "Mid-Range 6E"
+    },
+    {
+        "id": "arista-w318",
+        "vendor": "Arista",
+        "model": "W-318",
+        "image": "/app/static/images/arista-w318.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2:2 (Tri-Radio)",
+            "throughput": "4.2 Gbps",
+            "ports": "1 x 2.5GbE + 3 x 1GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated Zigbee"
+        },
+        "badge": "Wall Plate 6E"
+    },
+    {
+        "id": "arista-c260",
+        "vendor": "Arista",
+        "model": "C-260",
+        "image": "/app/static/images/arista-c260.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "8x8:8 (5GHz)",
+            "throughput": "6 Gbps",
+            "ports": "2 x 5GbE",
+            "power": "PoE++ (802.3bt)",
+            "ble": "Integrated"
+        },
+        "badge": "High Density"
+    },
+    {
+        "id": "arista-c230",
+        "vendor": "Arista",
+        "model": "C-230",
+        "image": "/app/static/images/arista-c230.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5GHz)",
+            "throughput": "3 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated"
+        },
+        "badge": "Mid-Range"
+    },
+    {
+        "id": "arista-o235",
+        "vendor": "Arista",
+        "model": "O-235",
+        "image": "/app/static/images/arista-o235.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4:4 (5GHz)",
+            "throughput": "3 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+ (802.3at)",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor Wi-Fi 6"
+    },
+    {
+        "id": "arista-c200",
+        "vendor": "Arista",
+        "model": "C-200",
+        "image": "/app/static/images/arista-c200.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2:2 (Dual Band)",
+            "throughput": "1.7 Gbps",
+            "ports": "1 x 1GbE",
+            "power": "PoE (802.3af)",
+            "ble": "Integrated"
+        },
+        "badge": "Entry Level"
+    },
+    {
+        "id": "aruba-750",
+        "vendor": "Aruba",
+        "model": "AP-754/755",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "4x4 (2.4G) + 4x4 (5G) + 4x4 (6G)",
+            "throughput": "28.8 Gbps",
+            "ports": "2 x 10GbE SmartRate",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "Flagship Wi-Fi 7"
+    },
+    {
+        "id": "aruba-745",
+        "vendor": "Aruba",
+        "model": "AP-745",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2 (2.4G) + 4x4 (5G) + 4x4 (6G)",
+            "throughput": "8.92 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "High Perf Wi-Fi 7"
+    },
+    {
+        "id": "aruba-730",
+        "vendor": "Aruba",
+        "model": "AP-734/735",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "14.4 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "Mid-Range Wi-Fi 7"
+    },
+    {
+        "id": "aruba-725",
+        "vendor": "Aruba",
+        "model": "AP-725",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "4.7 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Entry Wi-Fi 7"
+    },
+    {
+        "id": "aruba-650",
+        "vendor": "Aruba",
+        "model": "AP-654/655",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "4x4 (2.4G) + 4x4 (5G) + 4x4 (6G)",
+            "throughput": "7.8 Gbps",
+            "ports": "1 x 5GbE",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "Flagship 6E"
+    },
+    {
+        "id": "aruba-630-series",
+        "vendor": "Aruba",
+        "model": "AP-634/635",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "3.9 Gbps",
+            "ports": "2 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Mid-Range 6E"
+    },
+    {
+        "id": "aruba-615",
+        "vendor": "Aruba",
+        "model": "AP-615",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "3.6 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Entry 6E"
+    },
+    {
+        "id": "aruba-605h",
+        "vendor": "Aruba",
+        "model": "AP-605H(R)",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "3.6 Gbps",
+            "ports": "1 x 2.5GbE + 4x1G Local",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Hospitality 6E"
+    },
+    {
+        "id": "aruba-605r",
+        "vendor": "Aruba",
+        "model": "AP-605R",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G) + 2x2 (6G)",
+            "throughput": "3.6 Gbps",
+            "ports": "1 x 2.5GbE + 4x1G",
+            "power": "Low Voltage / PoE",
+            "ble": "Integrated"
+        },
+        "badge": "Remote 6E"
+    },
+    {
+        "id": "aruba-555",
+        "vendor": "Aruba",
+        "model": "AP-555",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4 (2.4G) + 8x8 (5G)",
+            "throughput": "5.37 Gbps",
+            "ports": "2 x 5GbE",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "Flagship Wi-Fi 6"
+    },
+    {
+        "id": "aruba-530",
+        "vendor": "Aruba",
+        "model": "AP-534/535",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "4x4 (2.4G) + 4x4 (5G)",
+            "throughput": "2.97 Gbps",
+            "ports": "2 x 5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "High Perf Wi-Fi 6"
+    },
+    {
+        "id": "aruba-510",
+        "vendor": "Aruba",
+        "model": "AP-514/515",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2 (2.4G) + 4x4 (5G)",
+            "throughput": "2.97 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Mid-Range Wi-Fi 6"
+    },
+    {
+        "id": "aruba-500",
+        "vendor": "Aruba",
+        "model": "AP-504/505",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G)",
+            "throughput": "1.49 Gbps",
+            "ports": "1 x 1GbE",
+            "power": "PoE",
+            "ble": "Integrated"
+        },
+        "badge": "Entry Wi-Fi 6"
+    },
+    {
+        "id": "aruba-760",
+        "vendor": "Aruba",
+        "model": "AP-764",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 7 (802.11be)",
+            "radios": "2x2(2.4)+4x4(5)+4x4(6)",
+            "throughput": "5.8 Gbps",
+            "ports": "1 x 2.5GbE + SFP+",
+            "power": "PoE++",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor Wi-Fi 7"
+    },
+    {
+        "id": "aruba-670",
+        "vendor": "Aruba",
+        "model": "AP-679/677/645/644",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6E (802.11ax)",
+            "radios": "2x2(2.4)+2x2(5)+2x2(6)",
+            "throughput": "3.9 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor 6E"
+    },
+    {
+        "id": "aruba-580",
+        "vendor": "Aruba",
+        "model": "AP-584/585/587",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2 (2.4G) + 4x4 (5G)",
+            "throughput": "3.0 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor High Perf"
+    },
+    {
+        "id": "aruba-570",
+        "vendor": "Aruba",
+        "model": "AP-574/575/577",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2 (2.4G) + 4x4 (5G)",
+            "throughput": "3.0 Gbps",
+            "ports": "1 x 2.5GbE",
+            "power": "PoE+",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor Mid"
+    },
+    {
+        "id": "aruba-560",
+        "vendor": "Aruba",
+        "model": "AP-565/567",
+        "image": "/app/static/images/mist-ap47.png",
+        "specs": {
+            "standard": "Wi-Fi 6 (802.11ax)",
+            "radios": "2x2 (2.4G) + 2x2 (5G)",
+            "throughput": "1.49 Gbps",
+            "ports": "1 x 1GbE",
+            "power": "PoE",
+            "ble": "Integrated"
+        },
+        "badge": "Outdoor Entry"
+    }
+]

@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import SplineScene from './components/Hero/SplineScene'
 import HeroOverlay from './components/Hero/HeroOverlay'
 import ComparisonGrid from './components/Comparison/ComparisonGrid'
-import { apData } from './data/aps'
+import apData from './data/aps.json'
 import { switchData } from './data/switches'
 import { motion, AnimatePresence } from 'framer-motion'
 

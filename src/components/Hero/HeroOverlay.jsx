@@ -15,11 +15,11 @@ export default function HeroOverlay({ onCompareClick }) {
                     className="text-5xl md:text-7xl font-extrabold tracking-tight"
                 >
                     <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
-                        Visionary
+                        The Premier Hub For
                     </span>
                     <br />
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-white">
-                        Network Performance
+                        HPEN Engineers
                     </span>
                 </motion.h1>
 
