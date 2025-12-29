@@ -19,6 +19,10 @@ st.markdown("""
             padding-left: 0rem !important;
             padding-right: 0rem !important;
             max-width: 100%;
+            background-color: black;
+        }
+        .stApp {
+            background-color: black;
         }
         iframe {
             display: block; /* Removed extra space below iframe */
@@ -110,8 +114,8 @@ def run_build():
         st.error(f"Build failed: {e}")
 
 if __name__ == "__main__":
-    
-    # Sidebar for Data Update
+    load_react_app()
+
     with st.sidebar:
         st.header("Data Management")
         uploaded_file = st.file_uploader("Upload Excel to Update APs", type=['xlsx'])
@@ -121,5 +125,3 @@ if __name__ == "__main__":
                 if update_data_from_excel(uploaded_file):
                     st.success("Data updated successfully!")
                     run_build()
-
-    load_react_app()
